@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Links</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_refreshs">refresh</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_text_for_service_desc"> this is a dummy text for the service discrptions this is a dummy text for the service discrptions this is a dummy text for the service discrptions   </string>
+    <string name="drawer_menu_courses_registration">Courses </string>
+    <string name="drawer_menu_work_space_registration">Heros space</string>
+    <string name="drawer_menu_portfolio">Portfolio</string>
+    <string name="drawer_menu_services">Services</string>
+    <string name="drawer_menu_news">News</string>
+    <string name="drawer_menu_share">Share</string>
+    <string name="drawer_menu_share_capital">SHARE</string>
+    <string name="welcoming_name_hint">ENTER NAME</string>
+    <string name="welcoming_phone_hint">ENTER PHONE NUMBER</string>
+    <string name="welcoming_email_hint">ENTER E-MAIL</string>
+    <string name="welocming_password_gint">ENTER PASSWORD</string>
+
+    <string name="sync_account_type">app.links.com</string>
+    <string name="content_authority">com.links.app</string>
+
+
+    <!--SHARED PREFS-->
+
+    <string name="notifications_off">off</string>
+    <string name="notifications_on">on</string>
+    <string name="pref_app_notifications_key">notifications</string>
+    <string name="pref_app_notifications_name">notifications</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="pref_units_names">
+        <item>@string/notifications_on</item>
+        <item>@string/notifications_off</item>
+    </string-array>
+    <string-array name="pref_units_values">
+        <item>@string/notifications_on</item>
+        <item>@string/notifications_off</item>
+    </string-array>
+    <string name="title_activity_courses">CoursesActivity</string>
+    <string name="title_activity_work_space">WorkSpaceActivity</string>
+    <string name="nav_contact_us">Contact Us</string>
+    <string name="hint_name_contact_us_message">Enter your name</string>
+    <string name="hint_email_contact_us">Enter your Email</string>
+    <string name="hint_topic_contact_us">Topic</string>
+    <string name="hint_message_contact_us">message</string>
+
+    <string name="gcm_sender_id">702224672646</string>
+    <string name="title_activity_services">Services</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="services_disc_one">Create websites from scratch, using the most advanced techniques.</string>
+    <string name="services_disc_two">Renew outdated websites with fresh creations.</string>
+    <string name="services_disc_three">Support your website with content that acclaims your work</string>
+    <string name="services_disc_four">Originate mobile applications to strengthen your base.</string>
+    <string name="services_disc_five">Create desktop applications to facilitate your day to day processes. Information Technology</string>
+    <string name="services_disc_six">Design the perfect software for your specialized field of work.</string>
+    <string name="services_disc_seven">Update all your software to keep up with the technology.</string>
+    <string name="services_disc_eight">Maintain your software and assign professional technicians at your peck and call.</string>
+    <string name="it_disc_one">Creatively design your company / startup / event, logos, covers... etc.</string>
+    <string name="it_disc_two">Setting you a guaranteed successful marketing plan and assisting with execution.</string>
+    <string name="it_disc_three">Reshape the whole company and performing a deeply detailed market research.</string>
+    <string name="it_disc_four">From notebooks to simple brochures we make it from zero, designing and printing</string>
+
+</resources>

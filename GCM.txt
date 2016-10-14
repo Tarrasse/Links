@@ -1,0 +1,29 @@
+﻿Part1: Register with GCM to get token and test push notification
+
+1. Create new android app
+2. Register this app with GCMserver to get Server API Key, sender ID,
+ download google-services.json
+https://developers.google.com/cloud-messaging/android/client
+
+3. Add google-services.json to project, Config build.gradle,
+	app-> build.grade: add: 
+			apply plugin: 'com.google.gms.google-services'
+		add dependencies:
+			compile "com.google.android.gms:play-services:8.3.0"
+	project-> build.grade: 
+		add dependencies:
+			classpath 'com.google.gms:google-services:1.5.0-beta2'
+			classpath 'com.android.tools.build:gradle:2.0.0-alpha6'
+=> sync project
+4. Create class GCMRegistrationIntentService to send request registration to GCM server
+5. Create class GCMTokenRefreshListenerService.java to handle token change
+ and then send request registration to GCM server for new token
+6. Create class GCMPushReceiverService to received message send from GCM server
+ and then push notification to UI
+7. MainActivity
+- Create BroadcastReceiver to handle message from service
+
+8. Config manifest
+9. Run test
+10. Test push notification
+http://apns-gcm.bryantan.info/

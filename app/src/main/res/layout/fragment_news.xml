@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.links.links.NewsFragment">
+
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/News_RecyclerView"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:dividerHeight="0dp"
+                app:stackFromEnd="true">
+
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="20dp"
+            android:text="loading ... \nonly at the first time"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:textAllCaps="true"
+            android:id="@+id/news_eempty_textView"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:elevation="@dimen/activity_horizontal_margin"
+            android:layout_margin="@dimen/fab_margin"
+            style="@style/Widget.Design.FloatingActionButton"
+            android:src="@drawable/ic_arrow_upward_white_24dp"
+            app:layout_anchor="@id/News_RecyclerView"
+            app:layout_anchorGravity="bottom"
+            app:fabSize="mini"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</FrameLayout>

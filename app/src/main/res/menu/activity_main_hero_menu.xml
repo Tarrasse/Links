@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_fiber_new_black_24dp"
+            android:title="@string/drawer_menu_news" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="@string/drawer_menu_services" />
+        <item
+            android:id="@+id/nav_portfolio"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/drawer_menu_portfolio" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="@string/nav_contact_us"/>
+
+    </group>
+
+    <item android:title="@string/drawer_menu_share_capital">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/drawer_menu_share" />
+
+        </menu>
+    </item>
+
+</menu>
